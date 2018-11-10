@@ -1,0 +1,57 @@
+.grow {
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    border: 3px solid green;
+    padding: 10px;
+    /*float: left;*/
+    /*position: relative;*/
+    transition: width 0.5s, height 0.5s;
+    -webkit-transition: width 0.5s, height 0.5s;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    background-image: url('https://cdn3.iconfinder.com/data/icons/web-15/128/RSSvgMenu-2-512.png');
+    z-index: 12;
+}
+.grow:hover {
+    height: 145px;
+    width: 800px;
+}
+
+.grow:after {
+    position: absolute;
+    content: '';
+
+    width: 70px;
+    height: 70px;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
