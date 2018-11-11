@@ -17,6 +17,6 @@ function content_changer()
         })
 
         console.log(selected);
-        $(selected).animate({top: '50%',}, 500);
+        $(selected).animate({top: '7vh',}, 500);
     })
 }
